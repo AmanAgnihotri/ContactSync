@@ -23,7 +23,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\ContactSync\ContactSync.csproj" />
+    <ProjectReference Include="..\..\src\ContactSync\ContactSync.csproj" />
   </ItemGroup>
 
 </Project>
