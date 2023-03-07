@@ -6,6 +6,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ContactSync", "src\ContactS
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{35FA28B8-4ED8-4B90-95D6-8E800356E8E4}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ContactSync.Units", "src\ContactSync.Units\ContactSync.Units.csproj", "{C06E3D06-E43E-4369-8E7E-18CD1112C42C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -13,11 +15,16 @@ Global
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{D422B861-2CFA-478F-81D8-869FE1D1D4FD} = {B0AE5BD3-2C4F-41AE-9CBF-0C96EFF32F02}
+		{C06E3D06-E43E-4369-8E7E-18CD1112C42C} = {35FA28B8-4ED8-4B90-95D6-8E800356E8E4}
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{D422B861-2CFA-478F-81D8-869FE1D1D4FD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{D422B861-2CFA-478F-81D8-869FE1D1D4FD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D422B861-2CFA-478F-81D8-869FE1D1D4FD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D422B861-2CFA-478F-81D8-869FE1D1D4FD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C06E3D06-E43E-4369-8E7E-18CD1112C42C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C06E3D06-E43E-4369-8E7E-18CD1112C42C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C06E3D06-E43E-4369-8E7E-18CD1112C42C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C06E3D06-E43E-4369-8E7E-18CD1112C42C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
